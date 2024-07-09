@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./exchange.css">
+</head>
+
+<body>
+    <h1>Currency Converter</h1>
+    <form>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="NGN">Naira (NGN)</option>
+            <option value="USD">US Dollar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">British Pound (GBP)</option>
+            <option value="ISK">Icelandic Króna (ISK)</option>
+            <option value="NOK">Norwegian Krone (NOK)</option>
+        </select>
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="USD">US Dollar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">British Pound (GBP)</option>
+            <option value="ISK">Icelandic Króna (ISK)</option>
+            <option value="NOK">Norwegian Krone (NOK)</option>
+            <option value="NGN">Naira (NGN)</option>
+        </select>
+        <button id="convert">Convert</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

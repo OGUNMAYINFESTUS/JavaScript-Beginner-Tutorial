@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Calculator</title>
+    <link rel="stylesheet" href="./exchange.css">
+</head>
+<body>
+    <h1 id="exchangeRate">Exchange Rate Calculator</h1>
+    <div id="amount">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter Amount"><br>
+    </div>
+
+    <div id="from">
+        <label for="from">From:</label>
+        <select name="exchange" id="from">
+            <option value="naira">Naira</option>
+            <option value="dollar">Dollar</option>
+            <option value="euro">Euro</option>
+            <option value="pounds">Pound</option>
+        </select><br>
+    </div>
+
+    <div id="to">
+        <label for="to">To:</label>
+        <select name="exchange" id="to">
+            <option value="dollar">Dollar</option>
+            <option value="euro">Euro</option>
+            <option value="pound">Pound</option>
+            <option value="naira">Naira</option>
+        </select><br>
+    </div>
+    
+    <button id="convert" onclick="convertCurrency()">Convert</button ><br>
+        
+    <p id="result"></p>
+
+
+
+    <script src="./exchange.js"></script>
+</body>
+</html>

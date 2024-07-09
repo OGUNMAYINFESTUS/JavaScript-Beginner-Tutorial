@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.hangman-container {
+    text-align: center;
+}
+
+.word-display {
+    margin-bottom: 20px;
+}
+
+.letters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letter {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
